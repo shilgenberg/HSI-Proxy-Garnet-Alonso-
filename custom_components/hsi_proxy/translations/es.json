@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HSI Proxy",
+        "description": "Conectá Home Assistant a tu proxy HSI",
+        "data": {
+          "base_url": "Base URL del proxy (ej: http://IP:8000)",
+          "token": "Token Bearer",
+          "scan_interval": "Intervalo (segundos)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "No se pudo conectar al proxy",
+      "no_systems": "El proxy no devolvió sistemas"
+    }
+  }
+}
