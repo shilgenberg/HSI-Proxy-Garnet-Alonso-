@@ -1,0 +1,4 @@
+echo {
+  "name": "HSI Proxy (Garnet/Alonso)",
+  "content_in_root": false
+} > hacs.json
